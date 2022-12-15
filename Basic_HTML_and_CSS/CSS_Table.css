@@ -1,0 +1,21 @@
+table, th, td {
+	table-layout: auto;
+	border: 1px solid;
+}
+
+td:hover{
+	background-color: red;
+	color: black;
+}
+
+tr, th {
+	background-color: #CD853F;
+	color: #008080;
+}
+
+
+tr, td {
+	background-color: #FFEFD5;
+	color: #2E8B57;
+}
+
