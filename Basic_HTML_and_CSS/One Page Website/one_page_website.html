@@ -2,6 +2,7 @@
 <html lang="eng">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
 		<title>Snoopy's Dog World</title>
 	</head>
 	<body>
@@ -9,8 +10,8 @@
 		<!-- NAV -->
 		<div>
 			<div>
-				<img src="./images/thumb/unnamed.jpg" alt="Snoopy Logo" width="100px" height="100px">
 				<nav>
+			<img id="Snoopy" src="./images/thumb/unnamed.jpg" alt="Snoopy Logo" width="80px" height="80px">
 				<ul>
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>OUR DOGS</li></a>
@@ -27,8 +28,9 @@
 			<div>
 				<div>
 					<h1><span>Welcome to Snoopy's Dog World!</span></h1>
+
 					<h2>Who Are We?</h2>
-					<p>Looking for a new dog? We sell rescued dogs! <br>
+					<p class="info">Looking for a new dog? We sell rescued dogs! <br>
 					   Does your dog need toys or snacks? We have a wide variety!<br>
                        Do you want to meet fellow dog owners? Come to our dog-friendly cafe!</p>					   
 				
@@ -38,18 +40,18 @@
 		<!-- END HOME -->
 	
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
-				<h1>Our Dogs</h1>
-				<div>
+		<section id="gallery">
+			<div id="container">
+				<h2>Our Dogs</h2>
+				<div class="flex-container">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_1.jpg" alt="German Shepherd Puppy" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_1.jpg" alt="German Shepherd Puppy" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #1</summary>
+									<summary>Sookie</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -58,12 +60,12 @@
 					<!-- END PHOTO-CONTAINER1 -->
 
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_2.jpg" alt="Corgi" width="320" height="240"> 
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_2.jpg" alt="Corgi" height="200px" width="300px"> 
 							<div>
 								<details>
-									<summary>Dog #2</summary>
+									<summary>Feiffer</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -72,12 +74,12 @@
 					<!-- END PHOTO-CONTAINER 2 -->
 
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_3.jpg" alt="Golden Retreiver" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_3.jpg" alt="Golden Retreiver" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #3</summary>
+									<summary>Crispin</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -86,12 +88,12 @@
 					<!-- END PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_4.jpg" alt="Scottish Terrier" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_4.jpg" alt="Scottish Terrier" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #4</summary>
+									<summary>Henry</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -100,12 +102,12 @@
 					<!-- END PHOTO-CONTAINER 4 -->
 
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_5.jpg" alt="German Shepherd in Gown" width="320" height="300">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_5.jpg" alt="German Shepherd in Gown" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #5</summary>
+									<summary>Elsa</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -114,12 +116,12 @@
 					<!-- END PHOTO-CONTAINER 5 -->
 
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_6.jpg" alt="Newfoundland Dog" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_6.jpg" alt="Newfoundland Dog" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #6</summary>
+									<summary>Maggie</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -128,12 +130,12 @@
 					<!-- END PHOTO-CONTAINER 6 -->
 					
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_7.jpg" alt="Husky" width="320" height="240">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img  class="photo" src="./images/thumb/thumbnail_7.jpg"  height="200px" width="300px" alt="Husky">
+							<div class="photo-overlay">
 								<details>
-									<summary>Dog #7</summary>
+									<summary>Shanu</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -142,12 +144,12 @@
 					<!-- END PHOTO-CONTAINER 7 -->
 
 					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_8.jpg" alt="Bassett Hound" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_8.jpg" alt="Bassett Hound" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #8</summary>
+									<summary>George</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -156,12 +158,12 @@
 					<!-- END PHOTO-CONTAINER 8 -->
 
 					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_9.jfif" alt="Beagle" width="320" height="240">
+					<div class="photo-container">
+						<div class="photo">
+							<img class="photo" src="./images/thumb/thumbnail_9.jfif" alt="Beagle" height="200px" width="300px">
 							<div>
 								<details>
-									<summary>Dog #9</summary>
+									<summary>Wishbone</summary>
 									   Learn more about me!
 								</details>
 							</div>	
@@ -179,9 +181,9 @@
 			<div>
 				<div>
 					<h2>Our Dog Park</h2>
-					<p>We have a great dog park where you can walk your dog, play fetch, or make new friends.</p>					   
+					<p class="info">We have a great dog park where you can walk your dog, play fetch, or make new friends.</p>					   
 					<!-- Original video has no audio -->
-					<video width="320" height="240" controls>
+					<video width="420" height="340" controls>
 						<source src="./videos/dog_park.mp4">
 				</div>
 			</div>
@@ -194,9 +196,9 @@
 		<section>
 			<div id="contact">
 				<div>
-					<h1>Contact Us</h1>
+					<h2>Contact Us</h2>
 					<div>
-						<h3><span>Are you ready to adopt one of these adorable furry friends?</span>
+						<h3 class="info"><span>Are you ready to adopt one of these adorable furry friends?</span>
 							<br /> Contact us today!
 						</h3>	
 						<p>
@@ -204,20 +206,20 @@
 						</p>
 						<div>
 							<form action="" method="post">
-								<label>First Name:</label>
+								<label >First Name:</label>
 								<input class="contact" type="text"></br>
-								<label>Last Name:</label>
+								<label >Last Name:</label>
 								<input class="contact" type="text"></br>
-								<label>Phone Number:</label>
+								<label >Phone Number:</label>
 								<input class="contact" type="tel"></br>
-								<label>Email:</label>
+								<label >Email:</label>
 								<input class="contact" type="email"></br>
 								<label>How can we help you?:</label>
 								<input class="contact" type="text"></br>
 								<div class="form-spacer">
 							</div>
-								<div>
-									<input type="submit" value="Submit">
+								<div class="submit">
+									<input  type="submit" value="Submit">
 								</div>
 							</form>
 						</div>
@@ -228,9 +230,8 @@
 		<!-- END RSVP -->
 	
 		<!-- FOOTER -->
-		<div>
-			<footer>Snoopy's Dog World &nbsp;|&nbsp; &copy; 2022</footer>
-		</div>
+		<footer>Snoopy's Dog World &nbsp;|&nbsp; &copy; 2022
+		</footer>
 		<!-- END FOOTER -->
 	
 	</body>
